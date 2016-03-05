@@ -6,8 +6,9 @@
 package bestgpacalculator;
 
 /**
- *
- * @author james
+ * @Class CST1201
+ * @Profesor Best
+ * @Project Lead james bernard
  */
 public class BestGpaCalculator {
 
