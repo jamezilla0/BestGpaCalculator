@@ -8,7 +8,7 @@ package bestgpacalculator;
 /**
  * @Class CST1201
  * @Profesor Best
- * @Project Lead james bernard
+ * @Project Lead Best Developers
  */
 public class BestGpaCalculator {
 
@@ -19,4 +19,5 @@ public class BestGpaCalculator {
         // TODO code application logic here
     }
     
+   
 }
