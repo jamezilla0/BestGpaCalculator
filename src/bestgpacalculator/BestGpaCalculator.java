@@ -25,7 +25,12 @@ public class BestGpaCalculator {
         test();
     }
     
+    /**
+     * Author Ibrhim Abdulaziz
+     * Spits out a test commit string to console.
+     */
     public static void test(){
+        // Initial sout command to run given task
         System.out.println("testing for commit");
         
     }   
