@@ -7,7 +7,7 @@ package bestgpacalculator;
 
 /**
  * @Class CST1201
- * @Profesor Best
+ * @Profesor Michael Best
  * @Project Lead Best Developers
  */
 public class BestGpaCalculator {
