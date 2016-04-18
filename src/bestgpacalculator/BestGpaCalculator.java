@@ -22,7 +22,14 @@ public class BestGpaCalculator {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        test();
     }
+    
+    public static void test(){
+        System.out.println("testing for commit");
+        
+    }   
+        
     
    
 }
