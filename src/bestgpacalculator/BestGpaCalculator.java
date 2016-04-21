@@ -7,13 +7,18 @@ package bestgpacalculator;
 
 /**
  * @Class CST1201
-<<<<<<< HEAD
  * @Profesor Michael Best
- * @Project Lead Best Developers11
-=======
- * @Profesor Best
- * @Project NiyyaA
->>>>>>> db85186566870c1864415fef2db2ff73cd0c33a7
+ * @Project Lead James Bernard
+ * @Project Coordinator Nic Younge
+ * @UI/UX Designer Steven Almonte
+ * @Calculator Algorithm
+ * @Tips Algorithm
+ * @User Registration
+ * @User Login/Logout
+ * @Temp Save Method
+ * @JDBC Save Method
+ * @Temp Read Method
+ * @JDBX Read Method
  */
 public class BestGpaCalculator {
 
@@ -22,17 +27,6 @@ public class BestGpaCalculator {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        test();
-    }
-    
-    /**
-     * Author Ibrhim Abdulaziz
-     * Spits out a test commit string to console.
-     */
-    public static void test(){
-        // Initial sout command to run given task
-        System.out.println("testing for commit");
-        
     }   
         
     
