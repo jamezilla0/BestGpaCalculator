@@ -18,10 +18,14 @@ public class Grade {
     public Grade(double number) {
        value = number;
        letter = Grade.decrypt.decryptNumberGrade(number);
+//        System.out.println("Grade value input: " + number);
+//        System.out.println("Grade value set: " + value);
     }
 
     public Grade(String character){
         range = Grade.decrypt.decryptletterGrade(character);
+        letter = character;
+        value = ((range[0] + range[1]) / 2);
     }
 
     public String getLetterGrade(){
