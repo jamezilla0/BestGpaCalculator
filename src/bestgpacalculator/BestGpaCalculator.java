@@ -13,7 +13,7 @@ import java.util.Scanner;
  * @Project Lead James Bernard
  * @Project Coordinator Nic Younge
  * @UI/UX Designer Steven Almonte
- * @Calculator Algorithm
+ * [x]Calculator Algorithm
  * @Tips Algorithm
  * @User Registration
  * @User Login/Logout
