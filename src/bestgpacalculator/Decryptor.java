@@ -13,67 +13,67 @@ public class Decryptor {
 
         switch (letter) {
             case "A+":
-                range[0] = 97.5;
+                range[0] = 97.50;
                 range[1] = 100;
                 break;
 
             case "A":
-                range[0] = 92.5;
-                range[1] = 97.4;
+                range[0] = 92.50;
+                range[1] = 97.49;
                 break;
 
             case "A-":
-                range[0] = 90.0;
-                range[1] = 92.4;
+                range[0] = 90;
+                range[1] = 92.49;
                 break;
 
             case "B+":
-                range[0] = 87.5;
-                range[1] = 89.9;
+                range[0] = 87.50;
+                range[1] = 89.99;
                 break;
 
             case "B":
-                range[0] = 82.5;
-                range[1] = 87.4;
+                range[0] = 82.50;
+                range[1] = 87.49;
                 break;
 
             case "B-":
-                range[0] = 80.0;
-                range[1] = 82.4;
+                range[0] = 80;
+                range[1] = 82.49;
                 break;
 
             case "C+":
-                range[0] = 75.5;
-                range[1] = 79.9;
+                range[0] = 75.50;
+                range[1] = 79.99;
                 break;
 
             case "C":
-                range[0] = 72.5;
-                range[1] = 75.4;
+                range[0] = 72.50;
+                range[1] = 75.49;
                 break;
 
             case "C-":
-                range[0] = 70.0;
-                range[1] = 72.4;
+                range[0] = 70;
+                range[1] = 72.49;
                 break;
 
             case "D+":
-                range[0] = 67.5;
-                range[1] = 69.9;
+                range[0] = 67.50;
+                range[1] = 69.99;
                 break;
 
             case "D":
-                range[0] = 62.5;
-                range[1] = 67.4;
+                range[0] = 62.50;
+                range[1] = 67.49;
                 break;
 
             case "D-":
-                range[0] = 60.0;
-                range[1] = 62.4;
+                range[0] = 60;
+                range[1] = 62.49;
                 break;
             default:
-                range[0] = 0.0;
-                range[1] = 59.9;
+                range[0] = 0;
+                range[1] = 59.99;
         }
 
         return range;
