@@ -97,6 +97,38 @@ public class Calculator {
             }
         }
         
+        public void decryptValueGrade(){
+            //Author: James Bernard
+            //Converts number value of grade to its letter counter part.
+            if(value <= 100){
+              letter = "A+";
+           }else if(value <= 97.4){
+              letter = "A";
+           }else if(value <= 92.4){
+              letter = "A-";
+           }else if(value <= 89.9){
+              letter = "B+";
+           }else if(value <= 87.4){
+              letter = "B";
+           }else if(value <= 82.4){
+               letter = "B-";
+           }else if(value <= 79.9){
+               letter =  "C+";
+           }else if(value <= 77.4){
+               letter = "C";
+           }else if(value <= 72.4){
+               letter = "C-";
+           }else if(value <= 69.9){
+               letter = "D+";
+           }else if(value <= 67.4){
+               letter = "D";
+           }else if(value <= 62.4){
+               letter = "D-";
+           }else if(value <= 60){
+               letter = "F";
+           }
+        }
+        
         public String getLetterGrade(){
             return letter;
         }
