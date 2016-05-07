@@ -30,14 +30,42 @@ public class BestGpaCalculator {
         Scanner input = new Scanner(System.in);
         // TODO code application logic here
         
-        System.out.print("Enter a number grade: ");
-        double userInput = input.nextDouble();
-        String letterGrade = Grade.decrypt.decryptNumberGrade(userInput);
-        System.out.println("Your letter grade is: " + letterGrade);
+//        System.out.print("Enter a number grade: ");
+//        double userInput = input.nextDouble();
+//        String letterGrade = Grade.decrypt.decryptNumberGrade(userInput);
+//        System.out.println("Your letter grade is: " + letterGrade);
+//        
+//        System.out.println("Converting grade to number range");
+//        double[] range = Grade.decrypt.decryptletterGrade(letterGrade);
+//        System.out.printf("Your grade is between %.1f and %.1f \n", range[0], range[1]);    
+
+        String killCode = ":quit";
+        String userInput;
+        Calculator gpaCalc = new Calculator();
+        Grade grade;
         
-        System.out.println("Converting grade to number range");
-        double[] range = Grade.decrypt.decryptletterGrade(letterGrade);
-        System.out.printf("Your grade is between %.1f and %.1f \n", range[0], range[1]);        
+        do{
+            System.out.print("Enter your number grade: ");
+            userInput = input.nextLine();
+            if(!userInput.equals(killCode)){
+                double val = -1;
+                
+                try{
+                    val = Double.parseDouble(userInput);
+                }catch(NumberFormatException ex){
+                }
+                
+                if(val != -1){
+                    grade = new Grade(val);
+                }else{
+                    grade = new Grade(userInput);
+                }
+                
+                gpaCalc.addGrade(grade);
+            }
+        }while(!userInput.equals(killCode));
+        
+        gpaCalc.getGpa();
     }   
         
     
