@@ -33,7 +33,7 @@ public class Calculator {
         
         String gpaLetter = Grade.decrypt.decryptNumberGrade(gpa);
         
-        System.out.println("Your GPA: " + gpa);
+        System.out.printf("Your GPA ~ %.2f \n" , gpa);
         System.out.println("Your GPA Letter Grade: " + gpaLetter);
     }
 }
