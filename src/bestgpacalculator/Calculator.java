@@ -26,8 +26,8 @@ public class Calculator {
             
         }
         
-        public void decryptGrade(){
-            
+        public void decryptletterGrade(){
+           
         }
         
         public String getLetterGrade(){
