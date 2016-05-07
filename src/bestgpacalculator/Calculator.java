@@ -28,6 +28,9 @@ public class Calculator {
         }
         
         public void decryptletterGrade(){
+            //range for the letter grades
+            //Steven
+            
             switch (letter) {
                 case "A+":
                     range[0] = 97.5;
